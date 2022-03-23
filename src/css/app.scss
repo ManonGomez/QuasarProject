@@ -1,0 +1,43 @@
+// app global css in SCSS form
+
+//LOGIN PAGE
+.login {
+  max-width: 400px;
+  margin-top: 10%;
+}
+
+.icon-input {
+  margin-top: 4%;
+  font-size: 1.5em;
+}
+
+//STUDIES PAGE
+.studies-content {
+  padding-right: 17%;
+  padding-left: 17%;
+}
+
+.align-icon-text {
+  margin: 0;
+  padding-left: 8px;
+}
+
+.more {
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 884px) {
+  .top-studies {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  .breadcrumbs {
+    display: flex;
+    justify-content: center;
+  }
+
+  .studies-content {
+    padding: 0;
+  }
+}
